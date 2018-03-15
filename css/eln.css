@@ -1,0 +1,647 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* GLOBAL */ 
+body {
+	font-family: 'Dax Pro';
+	/*font-family: 'ff-dax-pro';*/
+}
+h1 {
+	font-size: 1.3em;
+}
+h2 {
+	font-size: 1.2em;
+	color: #BD0005;
+}
+h3 {
+	font-size: 1em;
+	font-weight: 600;
+}
+/* Navigasjon */
+.navbar-brand {
+	background-image: url(../images/logoer/eln-logo.png);
+	background-repeat: no-repeat;
+	background-size: auto 50px;
+	width: 180px;
+	margin-top: 7px;
+	margin-bottom: 7px; 
+}
+.navbar-toggle {
+	float: left;
+	margin-right: 0px;
+	margin-left: 20px;
+	margin-top: 15px;
+	border: 0px;
+}
+/* Navigasjon - farger */ 
+.navbar-default {
+    background-color: #f6f6f6;
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a {
+	margin-top: 8px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #BD0005;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #BD0005;
+    background-color: #f6f6f6;
+}
+.form-group button.glyphicon {
+	margin-top: 20px;
+}
+.form-control:focus {
+    border-color:#989898; 
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 0, 0, .5);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 0, 0, .5);
+}
+.btn-glyph-search {
+	padding: 10px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border: 1px rgba(204,204,204,1.00) solid;
+	margin-left: -8px;
+}
+.btn-glyph-search:hover {
+	color: rgba(255,255,255,1.00);
+}
+.header-txt h3 {
+	font-family: 'Enzo OT';
+	color: #FFFFFF;
+	font-weight: 600;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);	
+}
+.btn-light {
+	background-color: Transparent;
+    background-repeat: no-repeat;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	padding-top: 12px;
+	margin: 0 8px;
+}
+.btn-light:hover  {
+	background:rgba(0,0,0,0.6);
+}
+.btn-light a  {
+	color: #FFFFFF;	
+}
+.btn-light a:hover  {
+	text-decoration: none;	
+}
+.btn-light h1  {
+	font-family: 'Enzo OT';
+	margin: 0 0 6px 0;
+}
+.btn-light p  {
+	font-family: 'Dax Pro';
+}
+/* Breadcrumb */ 
+ul.breadcrumb {
+	background: rgba(255,255,255,1.00);
+	padding: 10px 0 0 0; 
+	margin-bottom: 0;
+}
+.breadcrumb {
+	font-size: 0.9em;
+}
+.breadcrumb a {
+	color: #4A4A4A;
+}
+.breadcrumb li.active {
+	color: #BCBCBC;
+}
+.overskrift {
+	text-align: center;
+	padding-bottom: 30px;
+}
+.overskrift h1{
+	color: #ee3a43;
+}
+#main_content {
+	background-color: #f9f9fa;
+	text-align: center;
+}
+#main_content a {
+	color: #000000;
+}
+#main_content a:hover {
+	color: #ee3a43;
+}
+.youtube .col-md-4, .youtube .col-md-6 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.youtube iframe {
+	border: #FFFFFF 2px solid;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+.youtube p {
+	margin-top: 10px;
+}
+#logo_levrandor {
+	background-color: #f9f9fa;
+	border-top: 1px solid #EDEDED;
+}
+#logo_levrandor img {
+	margin: 15px auto 15px auto;
+}
+footer {
+	background-color: #E4E4E4;
+	padding: 30px 0 50px 0;
+	text-align: center;
+	color: #8f8f8f;
+}
+.footer-par {
+	padding-top: 20px;
+}
+.up-arrow {
+	color: #636363;
+	margin-bottom: -100px;
+}
+.up-arrow:hover {
+	color: #BD0005;
+}
+.socialMedia img {
+	margin: 30px auto 40px auto;
+	opacity: 0.5;
+}
+.socialMedia img:hover {
+	opacity: 0.8;
+}
+/* INDEX */ 
+.carouselindex .embed-responsive-16by9 {
+  padding-bottom: 34.1%;
+}
+#teasers {
+	text-align: center;
+	padding: 20px 0 50px 0;
+	background-color: #FFFFFF;
+}
+#teasers h2 {
+	font-size: 1.35em;
+	padding: 0 20px 20px 20px;
+}
+#teasers h3 {
+	font-size: 1.4em;
+	font-weight: 300;
+}
+#prod_menu h2 {
+	color: #787878;
+}
+#prod_menu a {
+	font-size: 0.9em;
+	color: #787878;
+	padding: 2px;
+}
+#prod_menu a:hover {
+	color: #989898;
+}
+#prod_menu .active {
+	color: #000000;
+}
+.teaser1 {
+	background: url(../images/teasers/teaser1-dark.jpg) no-repeat center;
+}
+.teaser2 {
+	background: url(../images/teasers/teaser2-dark.jpg) no-repeat center;
+}
+.teaser3 {
+	background: url(../images/teasers/teaser3-dark.jpg) no-repeat center;
+}
+.teaser4 {
+	background: url(../images/teasers/teaser4-dark.jpg) no-repeat center;
+}
+.teaser5 {
+	background: url(../images/teasers/teaser5-dark.jpg) no-repeat center;
+}
+.teaser6 {
+	background: url(../images/teasers/teaser6-dark.jpg) no-repeat center;
+}
+.teaser1, .teaser2, .teaser3, .teaser4, .teaser5, .teaser6 {
+	background-size: cover;
+	padding: 55px 0 90px 0;
+	border: 5px solid transparent;
+}
+.teaser1:hover {
+	background: url(../images/teasers/teaser1-light.jpg) no-repeat center;
+}
+.teaser2:hover {
+	background: url(../images/teasers/teaser2-light.jpg) no-repeat center;
+}
+.teaser3:hover {
+	background: url(../images/teasers/teaser3-light.jpg) no-repeat center;
+}
+.teaser4:hover {
+	background: url(../images/teasers/teaser4-light.jpg) no-repeat center;
+}
+.teaser5:hover {
+	background: url(../images/teasers/teaser5-light.jpg) no-repeat center;
+}
+.teaser6:hover {
+	background: url(../images/teasers/teaser6-light.jpg) no-repeat center;
+}
+.teaser1 a, .teaser2 a, .teaser3 a, .teaser4 a, .teaser5 a, .teaser6 a {
+	color:#FFFFFF;
+	font-family: 'Enzo OT';
+	/*font-family: 'ff-enzo-web';*/
+}
+.teaser1:hover, .teaser2:hover, .teaser3:hover, .teaser4:hover, .teaser5:hover, .teaser6:hover {
+	background-size: cover;
+}
+.teaser1 a:hover, .teaser2 a:hover, .teaser3 a:hover, .teaser4 a:hover, .teaser5 a:hover, .teaser6 a:hover {
+	color:#FFFFFF;
+	text-decoration: none;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+/* FAQ */ 
+.faq {
+    margin-bottom: 40px;
+}
+.faq a {
+    color: #000000;
+}
+.faq p strong {
+	margin-bottom: 0;
+}
+.faq img {
+	margin: 20px auto 30px auto;
+	border: #FFFFFF 2px solid;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+/* HVEM ER DU? */ 
+.who {
+    margin-bottom: 40px;
+}
+.who-img {
+    border: 10px solid transparent;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 90%;
+    opacity: 0.5;
+}
+.who-img:hover {
+	opacity: 0.9;
+}
+/* GALLERI */ 
+.gal-container{
+	padding: 12px 0;
+}
+.gal-item{
+	overflow: hidden;
+	padding: 3px;
+}
+.gal-item .box{
+	height: 350px;
+	overflow: hidden;
+}
+.box img{
+	height: 100%;
+	width: 100%;
+	object-fit:cover;
+	-o-object-fit:cover;
+}
+.gal-item a:focus{
+	outline: none;
+}
+.gal-item a:after{
+	content:"\e003";
+	font-family: 'Glyphicons Halflings';
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	right: 3px;
+	left: 3px;
+	top: 3px;
+	bottom: 3px;
+	text-align: center;
+    line-height: 350px;
+    font-size: 30px;
+    color: #fff;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.gal-item a:hover:after{
+	opacity: 1;
+}
+.modal-open .gal-container .modal{
+	background-color: rgba(0,0,0,0.4);
+}
+.modal-open .gal-item .modal-body{
+	padding: 0px;
+}
+.modal-open .gal-item button.close{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    opacity: 1;
+    color: #fff;
+    z-index: 999;
+    right: -12px;
+    top: -12px;
+    border-radius: 50%;
+    font-size: 15px;
+    border: 2px solid #fff;
+    line-height: 25px;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
+	box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
+}
+.modal-open .gal-item button.close:focus{
+	outline: none;
+}
+.modal-open .gal-item button.close span{
+	position: relative;
+	top: -3px;
+	font-weight: lighter;
+	text-shadow:none;
+}
+.gal-container .modal-dialogue{
+	width: 80%;
+}
+.gal-container .description{
+	position: relative;
+	height: 40px;
+	top: -40px;
+	padding: 10px 25px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	text-align: left;
+}
+.gal-container .description h4{
+	margin:0px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 20px;
+}
+.gal-container .modal.fade .modal-dialog {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    top: 100px;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.gal-container .modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0);
+    opacity: 1;
+}
+/* Footer Style */
+i.red{
+    color:#BC0213;
+}
+.gal-container{
+    padding-top :75px;
+    padding-bottom:75px;
+}
+/* KONTAKT OSS */ 
+.kontakt-info-mob, .kontakt-info {
+	padding-bottom: 50px;
+}	
+.kontakt-info-mob p, .kontakt-info p {
+	text-align: center;
+}
+.kontakt-info h3 {
+	padding-bottom: 20px;
+	margin-top: 0px;
+}
+.kontakt-info .glyphicon-phone {
+	padding-left: 50px;
+}
+.kontakt-info .glyphicon-envelope {
+	padding-left: 50px;
+}
+/* Kart */ 
+.googleMap iframe {
+	margin-top: 5px;
+}
+
+
+/* Mobile Layout: 767px and below. */ 
+@media screen and (max-width:767px) {
+	
+/* Navigasjon */ 
+.navbar-brand {
+	margin-left: 70px;
+}
+.navbar-default .navbar-collapse {
+	margin-bottom: 40px;
+}	
+/* Header */ 
+.header-video {
+	display: none;
+}	
+.header-txt h3 {
+	font-size: 1.4em;
+}
+.btn-light {
+	display: none;
+}
+.header-links {
+	text-align: center;
+	padding-top: 30px;
+}
+.header-links h1 {
+	font-family: 'Enzo OT';
+	color: #BD0005;
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.header-links p a {
+	font-family: 'Dax Pro';
+	color: #656565;
+}
+.header-links {
+	text-align: center;
+}
+.line-separator {
+	height: 1px;
+	background: #E1E1E1;
+	margin: 40px 50px 10px 50px;
+}	
+.overskrift h1{
+	font-size: 1.3em;
+}	
+#main_content {
+	padding: 30px 10px 50px 10px;
+	background-color: #f9f9fa;
+}
+.youtube .col-md-4, .youtube .col-md-6  {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.youtube .col-md-4 iframe {
+	height: 210px;
+}	
+.youtube .col-md-6 iframe {
+	height: 210px;
+}	
+#logo_levrandor {
+	padding: 30px 10px 40px 10px;
+}
+.footer-info {
+	display: none;
+}	
+/* INDEX */ 	
+#teasers h1 {
+	font-size: 1.3em;
+	color: #787878;
+}	
+#prod_menu {
+	display: none;	
+}	
+.teaser1, .teaser2, .teaser3, .teaser4, .teaser5, .teaser6 {
+	margin-bottom: 1px;
+}	
+.teaser-padd {
+	padding: 0 20px 0 20px;	
+}
+/* GALLERI */ 	
+.gal-container .modal-content{
+        height:250px;
+    }	
+/* KONTAKT OSS */ 	
+.kontakt-info {
+	display: none;	
+}	
+	
+}/* <--Mobile Layout */ 
+
+
+
+/* Tablet Layout, vertical: 768px to 991px. Inherits styles from: Mobile Layout. */
+
+@media screen and (min-width:768px) {
+		
+/* Header */ 
+.header-img-mob {
+	display: none;
+}	
+.header-txt h3 {
+	font-size: 1.5em;
+	margin-top: -100px;
+}
+.btn-light h1  {
+	font-size: 0.9em;
+}	
+.btn-light p  {
+	font-size: 0.85em;
+}		
+.header-links {
+	display: none;
+}
+.overskrift h1{
+	font-size: 1.5em;
+}
+#main_content {
+	padding: 30px 0 50px 0;
+}
+.youtube .col-md-4, .youtube .col-md-6  {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.youtube .col-md-4 iframe {
+	height: 420px;
+}	
+.youtube .col-md-6 iframe {
+	height: 420px;
+}
+#logo_levrandor {
+	padding: 10px 0 20px 0;
+}
+.footer-info-mob {
+	display: none;
+}
+/* INDEX */ 
+#teasers h1{
+	font-size: 2em;
+	color: #ee3a43;
+}	
+.teaser1, .teaser2, .teaser3, .teaser4, .teaser5, .teaser6 {
+	margin-bottom: 10px;
+}	
+.teaser-padd {
+	padding: 0;	
+}
+/* GALLERI */ 
+.gal-container .modal-dialog {
+    width: 55%;
+    margin: 50 auto;	
+}	
+/* KONTAKT OSS */ 	
+.kontakt-info-mob {
+	display: none;	
+}	
+}/* <--Tablet Layout */ 
+
+
+/* Tablet Layout, horizontal: 992px to 1024px. Inherits styles from: Mobile Layout and Tablet Layout, vertical. */
+
+@media screen and (min-width:992px) {
+		
+/* Header */ 		
+.header-txt h3 {
+	font-size: 1.9em;
+	margin-top: -200px;
+	padding-bottom: 10px;
+}
+.youtube .col-md-4, .youtube .col-md-6  {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.youtube .col-md-4 iframe {
+	height: 180px;
+}	
+.youtube .col-md-6 iframe {
+	height: 270px;
+}	
+}/* <--Tablet Layout */ 
+
+
+/* Desktop Layout: 1025px and up.  Inherits styles from: Mobile Layout and Tablet Layout. */
+@media screen and (min-width:1025px) {
+	
+/* Header */ 		
+.header-txt h3 {
+	font-size: 4em;
+	margin-top: -500px;
+	margin-bottom: 40px;
+}
+.btn-light {
+	width: 200px;
+	height: 70px;
+}
+.btn-light h1  {
+	font-size: 1.2em;
+}	
+.btn-light p  {
+	font-size: 1em;
+}
+.youtube .col-md-4 iframe {
+	height: 215px;
+}
+.youtube .col-md-6 iframe {
+	height: 315px;
+}	
+#logo_levrandor {
+	padding: 50px 0 60px 0;
+}	
+
+}/* <--Desktop Layout */	
